@@ -3,7 +3,7 @@ import '@styles/globals.scss';
 import { Inter } from '@next/font/google';
 const inter = Inter();
 
-export default function RootLayout({
+export default function DashLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -11,26 +11,26 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head>
-        <title>Sdev.gg</title>
+        <title>Sdev Dash</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="Tell us how would will be the perfect website for your project and we will build and deploy it."
+          content="Save time and get to market faster with this free fully responsive single page html template built with TailwindCSS."
         />
-        <link rel="canonical" href="https://sdev.gg/" />
+        <link rel="canonical" href="https://sdev.gg/dash" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Sdev.gg" />
+        <meta property="og:title" content="Sdev.gg Dashboard" />
         <meta
           property="og:description"
-          content="Tell us how would will be the perfect website for your project and we will build and deploy it."
+          content="Save time and get to market faster with this free fully responsive single page html template built with TailwindCSS."
         />
         <meta property="og:image" content="LINK TO THE IMAGE FILE" />
-        <meta property="og:url" content="https://sdev.gg/" />
-        <meta property="og:site_name" content="sdev" />
-        <meta name="twitter:title" content="Sdev.gg" />
+        <meta property="og:url" content="https://sdev.gg/dash" />
+        <meta property="og:site_name" content="Course Landing Page" />
+        <meta name="twitter:title" content="TITLE OF POST OR PAGE" />
         <meta
           name="twitter:description"
-          content="Tell us how would will be the perfect website for your project and we will build and deploy it."
+          content="Save time and get to market faster with this free fully responsive single page html template built with TailwindCSS."
         />
         <meta name="twitter:image" content="LINK TO IMAGE" />
         <meta name="robots" content="index, follow" />

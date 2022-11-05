@@ -6,7 +6,8 @@ export default function Footer() {
     <footer className="relative text-gray-50 py-32 px-4 md:px-8 overflow-hidden 2xl:px-60 mx-auto">
       <div className="z-40 grid grid-cols-2 lg:grid-cols-4 gap-4   ">
         <div className="text-gray-600">
-          <p className="text-white mb-8">Heading</p>
+          <p className="text-white mb-8">Navigation</p>
+
           <a href="#" className="text-sm mb-4 block">
             Footer Link
           </a>
@@ -21,7 +22,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="text-gray-600">
-          <p className="text-white mb-8">Heading</p>
+          <p className="text-white mb-8">Our Tools</p>
           <a href="#" className="text-sm mb-4 block">
             Footer Link
           </a>
@@ -36,7 +37,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="text-gray-600">
-          <p className="text-white mb-8">Heading</p>
+          <p className="text-white mb-8">Legal</p>
           <a href="#" className="text-sm mb-4 block">
             Footer Link
           </a>
@@ -51,7 +52,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="text-gray-600">
-          <p className="text-white mb-8">Heading</p>
+          <p className="text-white mb-8">Social</p>
           <a href="#" className="text-sm mb-4 block">
             Footer Link
           </a>

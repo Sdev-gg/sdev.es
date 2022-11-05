@@ -52,6 +52,35 @@ p {
   }
 }
 
+// MODALS
+.modal-animation {
+  animation: scaleUp 0.5s forwards;
+  &.out {
+    animation: scaleDown 0.5s forwards;
+  }
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scaleDown {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+}
+
 // SCROLLBAR
 /* width */
 ::-webkit-scrollbar {

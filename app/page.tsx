@@ -1,16 +1,19 @@
-import Hero from '@/components/hero';
-import CTA from '@/components/CTA';
-import Companies from '@/components/companies';
-import FeatureA from '@/components/featureA';
-import FeatureB from '@/components/featureB';
-import Benefits from '@/components/beneftis';
-import Showcase from '@/components/showcase';
-import Reviews from '@/components/reviews';
-import Pricing from '@/components/pricing';
+import Hero from '@/components/landing/hero';
+import CTA from '@/components/landing/CTA';
+import Companies from '@/components/landing/companies';
+import FeatureA from '@/components/landing/featureA';
+import FeatureB from '@/components/landing/featureB';
+import Benefits from '@/components/landing/beneftis';
+import Showcase from '@/components/landing/showcase';
+import Reviews from '@/components/landing/reviews';
+import Pricing from '@/components/landing/pricing';
+import Footer from '@/components/landing/footer';
+import Header from '@/components/landing/header';
 
 export default async function Page() {
   return (
     <>
+      <Header />
       <Hero />
       <Companies />
       <FeatureA />
@@ -20,6 +23,7 @@ export default async function Page() {
       <Reviews />
       <Pricing />
       <CTA />
+      <Footer />
     </>
   );
 }
